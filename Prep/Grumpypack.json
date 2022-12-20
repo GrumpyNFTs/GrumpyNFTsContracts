@@ -1,0 +1,17 @@
+{
+    "name": "Dirty Sack of Tricks",
+    "description": "",
+    "image": "ipfs://QmePXAEjxFomzxBMadiWKZdUn8GNHevbciAVm5x4wmLjFx",
+    "external_url": "https://GrumpyNFTs.com",
+    "attributes": [
+        {
+            "trait_type": "Type", 
+            "value": "Pack"
+            
+        },
+        {
+            "trait_type": "Series", 
+            "value": "One"
+        }
+    ]
+}
