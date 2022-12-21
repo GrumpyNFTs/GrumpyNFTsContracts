@@ -92,6 +92,9 @@ contract GrumpyPacks is ERC721AQueryable, IERC721ABurnable, Ownable, Pausable, R
         return (bytes(customURIs[tokenId]).length == 0) ? _normalUri : customURIs[tokenId];
     }
 
+    function setAuthorizedContract(address authorizedContract) external onlyOwnerOrAdmin {
+        _authorizedContract = authorizedContract;
+    }
     // ============================================================= //
     //                       Mint Fuctions                           //
     // ============================================================= //
